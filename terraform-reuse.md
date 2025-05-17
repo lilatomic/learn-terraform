@@ -1,5 +1,5 @@
 ---
-title: 'terraform-reuse'
+title: 'Reusing Terraform code'
 teaching: 10
 exercises: 2
 ---
