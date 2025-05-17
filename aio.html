@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Terraform: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="assets/styles.css">
 <script src="assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
@@ -34,7 +34,7 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="Lesson Description" src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
+        <img id="incubator-logo" alt="Learn enough Terraform to contribute to your team" src="assets/images/incubator-logo.svg"><span class="badge text-bg-danger">
           <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
             <a href="https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html" class="external-link alert-link">
               <i aria-hidden="true" class="icon" data-feather="alert-octagon" style="border-radius: 5px"></i>
@@ -91,10 +91,10 @@
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="Lesson Description" src="assets/images/incubator-logo-sm.svg">
+      <img class="small-logo" alt="Learn enough Terraform to contribute to your team" src="assets/images/incubator-logo-sm.svg">
 </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Terraform
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -105,7 +105,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Terraform
           </span>
         </li>
         <li class="nav-item">
@@ -141,7 +141,7 @@
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
-  Lesson Title
+  Terraform
 </div>
 
 <aside class="col-md-12 lesson-progress"><div style="width: %" class="percentage">
@@ -243,7 +243,79 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="introduction.html">1. Learn Terraform</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="terraform-cli.html">2. terraform-cli</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="terraform-state.html">3. terraform-state</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="terraform-resources.html">4. terraform-resources</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="terraform-references.html">5. terraform-references</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="terraform-reuse.html">6. terraform-reuse</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="becoming-terraform.html">7. Turning resources into Terraform</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -306,11 +378,36 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-introduction"><p>Content from <a href="introduction.html">Learn Terraform</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+</h2>
+<hr class="half-width">
+<p>Terraform is a tool for managing your IT infrastructure as code,
+known as IAC. This lesson is written for people who have IT experience
+and need to learn Terraform to contribute to their team.</p>
+<div class="section level3">
+<h3 id="prerequisites">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a>
+</h3>
+<p>This lesson requires familiarity with the command line. Consider
+following <a href="https://swcarpentry.github.io/shell-novice/" class="external-link">this
+lesson</a>.</p>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section><section id="aio-terraform-cli"><p>Content from <a href="terraform-cli.html">terraform-cli</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/terraform-cli.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -322,8 +419,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>How I you deploy Terraform?</li>
 </ul>
 </div>
 </div>
@@ -333,9 +429,10 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Understand the Terraform workflow</li>
+<li>Know that Terraform dependencies are needed</li>
+<li>Demonstrate using the <code>init</code>, <code>plan</code>, and
+<code>apply</code> commands.</li>
 </ul>
 </div>
 </div>
@@ -345,66 +442,67 @@ challenge blocks</li>
 <section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.html" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?</h3>
-<div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<p>Terraform exists as code files. These will tell Terraform what
+resources to deploy.</p>
+<div class="section level3">
+<h3 id="dependencies">Dependencies<a class="anchor" aria-label="anchor" href="#dependencies"></a>
 </h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
+<p>Terraform itself is a general-purpose tool. It doesn’t include tools
+to work with infrastructure and service providers, such as Clouds. These
+tools are called “Providers”. Terraform needs to download them so it can
+use them to deploy your infrastructure. This is done with the
+<code>init</code> subcommand:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">terraform</span> init</span></code></pre>
 </div>
+<p>Once the providers are downloaded, you will only need to reinitialise
+Terraform to download new providers or versions of those providers.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Initialise Terraform in the <code>01</code> sample.</p>
 </div>
 </div>
 </div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
 <div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
+<p>In the <code>01</code> directory, run <code>terraform init</code>.
+You will see it download several providers. The output will look
+something like the following:</p>
+<p>!!TODO</p>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
+</section><section><h2 class="section-heading" id="plan">Plan<a class="anchor" aria-label="anchor" href="#plan"></a>
+</h2>
+<hr class="half-width">
+<p>Before Terraform deploys your infrastructure, it formulates a plan of
+what it will do. You can see this plan with <code>plan</code>
+subcommand. The plan is useful to review what changes Terraform will
+make. You should double-check that it isn’t going to delete anything
+important.</p>
+<div id="discussion2" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within challenge blocks?</h3>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
-
+<p>See the plan that Terraform will deploy for the <code>01</code>
+sample</p>
 </div>
 </div>
 </div>
@@ -415,42 +513,373 @@ reinforce the objectives.</li>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
+<p>In the <code>01</code> directory, run <code>terraform plan</code>. It
+should look like the following:</p>
+<p>!! TODO</p>
+<div class="error">
+<p>If you see Terraform mention that it is missing providers, you will
+need to initialise Terraform. Remember that this needs to be done the
+first time you are working on a deployment and every time the versions
+of the providers changes.</p>
+<p>!! TODO</p>
 </div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+</div>
+</section><section><h2 class="section-heading" id="deploy">Deploy<a class="anchor" aria-label="anchor" href="#deploy"></a>
 </h2>
 <hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
+<p>If the plan looks good, you can actually deploy the Terraform code.
+You do this with the <code>apply</code> subcommand. Terraform will show
+you the plan and ask for your confirmation</p>
+<div id="discussion3" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout</h3>
+<h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
+<p>Deploy the <code>01</code> sample deployment</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>In the <code>01</code> directory, run <code>terraform apply</code>.
+You should see it create the resources.</p>
+<p>!! TODO: show checking the resources</p>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Terraform needs other tools to run. These tools are called
+“providers”</li>
+<li>Download providers with the <code>init</code> subcommand</li>
+<li>Providers need to be downloaded once when you start working on a
+deployment and every time you either add new providers or modify their
+versions</li>
+<li>Terraform will show you a plan of what it will deploy with the
+<code>plan</code> subcommand</li>
+<li>Terraform will deploy your infrastructure with the
+<code>apply</code> subcommand</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-terraform-state"><p>Content from <a href="terraform-state.html">terraform-state</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/terraform-state.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How does Terraform know what resources it created?</li>
+<li>How does Terraform know that those resources were changed?</li>
+<li>How does Terraform only change what needs to be changed?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Understand the concept of the Terraform state</li>
+<li>Understand change detection</li>
+<li>Understand reconciliation of resources with the IAC</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="remembering-what-was-deployed">Remembering what was deployed<a class="anchor" aria-label="anchor" href="#remembering-what-was-deployed"></a>
 </h2>
 <hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
+<p>When we ran <code>terraform apply</code>, Terraform created our
+resources. It recorded these resources in its “state”. The state is
+stored in a file. In our case, this file is stored locally in the
+<code>.tfstate</code> file. This file can be opened with any editor.
+Have a look at it.</p>
+<p>You can also inspect the state with Terraform subcommands. The
+<code>state list</code> subcommand will list all the objects Terraform
+knows about. The <code>state show</code> subcommand will show a specific
+resource.</p>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>!! TODO</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="change-detection">Change detection<a class="anchor" aria-label="anchor" href="#change-detection"></a>
+</h2>
+<hr class="half-width">
+<p>Terraform uses this state to know when things have changed from when
+Terraform last saw them.</p>
+<div class="explore">
+<p>Delete the !!TODO resource and redeploy the terraform code. See how
+terraform lets you know that the resource was deleted.</p>
+</div>
+</section><section><h2 class="section-heading" id="reconcilliation">Reconcilliation<a class="anchor" aria-label="anchor" href="#reconcilliation"></a>
+</h2>
+<hr class="half-width">
+<p>Change detection is actually more useful for Terraform to know what
+doesn’t need to change. If you have a large Terraform deployment, it
+saves a lot of time to only deploy the resources that have changed. The
+process of modifying the resources to return them to their desired state
+is often called “reconcilliation”.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Terraform keeps a record of the resources it created in a state
+file</li>
+<li>Terraform uses the state to detect what has changed</li>
+<li>Terraform can be used to restore resources to the desired state in a
+process called “reconcilliation”</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-terraform-resources"><p>Content from <a href="terraform-resources.html">terraform-resources</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/terraform-resources.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do I define a resource in Terraform</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Find a resource in Terraform by name and type</li>
+<li>Create a resource in Terraform</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="terraform-syntax">Terraform syntax<a class="anchor" aria-label="anchor" href="#terraform-syntax"></a>
+</h2>
+<hr class="half-width">
+<p>Terraform is written in a data format called HCL. This language has
+significantly fewer features than common programming languages like
+Python or scripting languages like Bash. You can read about the syntax
+of HCL in the <a href="https://developer.hashicorp.com/terraform/language/syntax/configuration" class="external-link">official
+documentation</a> or in many other tutorials.</p>
+<p>For our purposes, resources are defined in resource blocks, which
+follow this pattern:</p>
+<div class="hcl">
+<p>resource “providerName_resourceType” “name” { argument = value }</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>They always begin with <code>resource</code>
+</li>
+<li>They include the type of the resource. This is usually a combination
+of the name of the provider followed by the type of the resource. (This
+fact is convenient for narrowing autocomplete suggestions)</li>
+<li>The are followed by the name of the resource. This this the name
+<em>to Terraform</em>. This name will be referenced in the state file
+and by other resources.</li>
+<li>arguments defining the resource go inside of the braces</li>
+</ol>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Find the resource for the file “file0”.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>We can search the Terraform documentation for the resource type that
+creates files. It is called <a href="https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file" class="external-link">local_file</a>.
+We can then search our Terraform files for all resources of that type.
+Notice that the name of the resources does not match the name of the
+file (which is in the <code>filename</code> argument). Remember that the
+name of the resource should be significant within the Terraform code,
+which provides us an opportunity to call it something other than the
+name of the file that needs to appear on disk.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="creating-a-resource">Creating a resource<a class="anchor" aria-label="anchor" href="#creating-a-resource"></a>
+</h2>
+<hr class="half-width">
+<p>We may want to find the documentation for the type of the Terraform
+resource we want to deploy. Although many editors will provide
+suggestions for the names and types of the arguments we will need to
+supply, we may want more information than they present.</p>
+<p>For creating a resource, we need to follow the format of a resource
+above. The name of a Terraform resource needs to be unique for its type:
+That is, we can have a <code>local_file</code> called “foo” and a
+<code>null_resource</code> called “foo”, but we could not have 2
+<code>local_file</code>s both called “foo”.</p>
+<div id="discussion2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Write Terraform that will create a file on disk called “my_file.txt”
+with text “Hello World!”.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<pre class="hcl"><code>resource "local_file" "solution" {
+  filename = "my_file.txt"
+  content  = "Hello World!"
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>All resources in Terraform follow the same pattern: they begin with
+<code>resource</code>, then the resource type, then a name, and then the
+properties of the resource</li>
+<li>resource names in Terraform must be unique for all resources of a
+specific type</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-terraform-references"><p>Content from <a href="terraform-references.html">terraform-references</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/terraform-references.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do I use values from one resource in another?</li>
+<li>How do I reference a resource outside of my code?</li>
+<li>How do I store a common piece of data?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Demonstrate referencing resources</li>
+<li>Demonstrate <code>data</code> for referencing external
+resources</li>
+<li>Demonstrate <code>locals</code> for common pieces of data</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -470,12 +899,112 @@ locally</li>
 </ul>
 </div>
 </div>
+</div></section><section id="aio-terraform-reuse"><p>Content from <a href="terraform-reuse.html">terraform-reuse</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/terraform-reuse.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can I reuse some Terraform code?</li>
+<li>How can I deploy the same Terraform but with different values?</li>
+</ul>
 </div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Introduce <code>module</code>s for reusing code</li>
+<li>Explain <code>variable</code> and <code>output</code> for passing
+data into and out of a module</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Terraform <code>module</code>s allow you to reuse code while
+specifying different values</li>
+<li>You can pass different values into a module with
+<code>variable</code>s</li>
+<li>You can get values out of a module with <code>output</code>s</li>
+</ul>
+</div>
+</div>
+</div></section><section id="aio-becoming-terraform"><p>Content from <a href="becoming-terraform.html">Turning resources into Terraform</a></p>
+<hr>
+<p>Last updated on 2025-05-17 |
+
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/episodes/becoming-terraform.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do I convert an existing resource into Terraform?</li>
+<li>How do I incorporate my changes into Terraform?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Use the <code>import</code> subcommand to associate an existing
+resource with Terraform</li>
+<li>Develop a workflow for incorporating changes into Terraform</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>the <code>import</code> subcommand allows you to associate existing
+resources with Terraform</li>
+<li>Terraform’s <code>plan</code> can show you the current state of the
+resource, which you can use to define it</li>
+<li>Terraform can show you what modifications were made to
+resources</li>
+</ul>
+</div>
+</div>
+</div></section>
 </div>
     </main>
 </div>
@@ -488,12 +1017,12 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/lilatomic/learn-terraform/edit/main/README.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/workbench-template-md/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/lilatomic/learn-terraform/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/lilatomic/learn-terraform/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/lilatomic/learn-terraform/blob/main/CITATION.cff" class="external-link">Cite</a> | <a href="mailto:daniel.goldman@gmail.com">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
 
@@ -513,16 +1042,16 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "LearningResource",
-  "@id": "https://carpentries.github.io/workbench-template-md/aio.html",
+  "@id": "https://lilatomic.github.io/learn-terraform/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "software, infrastructure, terraform, The Carpentries",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/aio.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/aio.html",
-  "dateCreated": "2025-05-17",
+  "url": "https://lilatomic.github.io/learn-terraform/aio.html",
+  "identifier": "https://lilatomic.github.io/learn-terraform/aio.html",
+  "dateCreated": "2025-05-16",
   "dateModified": "2025-05-17",
   "datePublished": "2025-05-17"
 }
