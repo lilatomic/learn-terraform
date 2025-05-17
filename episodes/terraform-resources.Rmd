@@ -1,5 +1,5 @@
 ---
-title: 'terraform-resources'
+title: 'Resources'
 teaching: 10
 exercises: 2
 ---

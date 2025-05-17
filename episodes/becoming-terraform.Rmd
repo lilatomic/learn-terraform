@@ -13,7 +13,7 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Use the `import` subcommand to associate an existing resource with Terraform
+- Associate an existing resource with Terraform
 - Develop a workflow for incorporating changes into Terraform
 
 ::::::::::::::::::::::::::::::::::::::::::::::::

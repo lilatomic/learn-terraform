@@ -1,5 +1,5 @@
 ---
-title: 'terraform-state'
+title: 'State'
 teaching: 10
 exercises: 2
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'terraform-cli'
+title: 'The CLI'
 teaching: 10
 exercises: 2
 ---
