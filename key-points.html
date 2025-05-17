@@ -255,7 +255,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="terraform-cli.html">2. terraform-cli</a>
+        <a href="terraform-cli.html">2. The CLI</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -267,7 +267,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="terraform-state.html">3. terraform-state</a>
+        <a href="terraform-state.html">3. State</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -279,7 +279,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="terraform-resources.html">4. terraform-resources</a>
+        <a href="terraform-resources.html">4. Resources</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -291,7 +291,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="terraform-references.html">5. terraform-references</a>
+        <a href="terraform-references.html">5. Referencing resources</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -303,7 +303,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="terraform-reuse.html">6. terraform-reuse</a>
+        <a href="terraform-reuse.html">6. Reusing Terraform code</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -379,7 +379,7 @@
         
         
 <section id="introduction"><h2 class="section-heading"><a href="introduction.html">Learn Terraform</a></h2>
-<hr class="half-width"></section><section id="terraform-cli"><h2 class="section-heading"><a href="terraform-cli.html">terraform-cli</a></h2>
+<hr class="half-width"></section><section id="terraform-cli"><h2 class="section-heading"><a href="terraform-cli.html">The CLI</a></h2>
 <hr class="half-width">
 <ul>
 <li>Terraform needs other tools to run. These tools are called
@@ -392,7 +392,7 @@ versions</li>
 <code>plan</code> subcommand</li>
 <li>Terraform will deploy your infrastructure with the
 <code>apply</code> subcommand</li>
-</ul></section><section id="terraform-state"><h2 class="section-heading"><a href="terraform-state.html">terraform-state</a></h2>
+</ul></section><section id="terraform-state"><h2 class="section-heading"><a href="terraform-state.html">State</a></h2>
 <hr class="half-width">
 <ul>
 <li>Terraform keeps a record of the resources it created in a state
@@ -400,7 +400,7 @@ file</li>
 <li>Terraform uses the state to detect what has changed</li>
 <li>Terraform can be used to restore resources to the desired state in a
 process called “reconcilliation”</li>
-</ul></section><section id="terraform-resources"><h2 class="section-heading"><a href="terraform-resources.html">terraform-resources</a></h2>
+</ul></section><section id="terraform-resources"><h2 class="section-heading"><a href="terraform-resources.html">Resources</a></h2>
 <hr class="half-width">
 <ul>
 <li>All resources in Terraform follow the same pattern: they begin with
@@ -408,18 +408,19 @@ process called “reconcilliation”</li>
 properties of the resource</li>
 <li>resource names in Terraform must be unique for all resources of a
 specific type</li>
-</ul></section><section id="terraform-references"><h2 class="section-heading"><a href="terraform-references.html">terraform-references</a></h2>
+</ul></section><section id="terraform-references"><h2 class="section-heading"><a href="terraform-references.html">Referencing resources</a></h2>
 <hr class="half-width">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
-</ul></section><section id="terraform-reuse"><h2 class="section-heading"><a href="terraform-reuse.html">terraform-reuse</a></h2>
+<li>Terraform resources can reference other resources with an identifier
+formed by their type and name</li>
+<li>Terraform can reference resources outside of IAC with
+<code>data</code> resources</li>
+<li>
+<code>locals</code> can be used to reference values</li>
+<li>
+<code>depends_on</code> can be used to create links between
+resources</li>
+</ul></section><section id="terraform-reuse"><h2 class="section-heading"><a href="terraform-reuse.html">Reusing Terraform code</a></h2>
 <hr class="half-width">
 <ul>
 <li>Terraform <code>module</code>s allow you to reuse code while

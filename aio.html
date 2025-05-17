@@ -255,7 +255,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="terraform-cli.html">2. terraform-cli</a>
+        <a href="terraform-cli.html">2. The CLI</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -267,7 +267,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="terraform-state.html">3. terraform-state</a>
+        <a href="terraform-state.html">3. State</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -279,7 +279,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="terraform-resources.html">4. terraform-resources</a>
+        <a href="terraform-resources.html">4. Resources</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -291,7 +291,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="terraform-references.html">5. terraform-references</a>
+        <a href="terraform-references.html">5. Referencing resources</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -303,7 +303,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="terraform-reuse.html">6. terraform-reuse</a>
+        <a href="terraform-reuse.html">6. Reusing Terraform code</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -403,7 +403,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</section></section><section id="aio-terraform-cli"><p>Content from <a href="terraform-cli.html">terraform-cli</a></p>
+</section></section><section id="aio-terraform-cli"><p>Content from <a href="terraform-cli.html">The CLI</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
@@ -475,7 +475,7 @@ Terraform to download new providers or versions of those providers.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>In the <code>01</code> directory, run <code>terraform init</code>.
 You will see it download several providers. The output will look
@@ -511,7 +511,7 @@ sample</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>In the <code>01</code> directory, run <code>terraform plan</code>. It
 should look like the following:</p>
@@ -549,7 +549,7 @@ you the plan and ask for your confirmation</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>In the <code>01</code> directory, run <code>terraform apply</code>.
 You should see it create the resources.</p>
@@ -584,7 +584,7 @@ versions</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-terraform-state"><p>Content from <a href="terraform-state.html">terraform-state</a></p>
+</section></section><section id="aio-terraform-state"><p>Content from <a href="terraform-state.html">State</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
@@ -694,7 +694,7 @@ process called “reconcilliation”</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-terraform-resources"><p>Content from <a href="terraform-resources.html">terraform-resources</a></p>
+</section></section><section id="aio-terraform-resources"><p>Content from <a href="terraform-resources.html">Resources</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
@@ -842,7 +842,7 @@ specific type</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-terraform-references"><p>Content from <a href="terraform-references.html">terraform-references</a></p>
+</section></section><section id="aio-terraform-references"><p>Content from <a href="terraform-references.html">Referencing resources</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
@@ -880,6 +880,101 @@ resources</li>
 </div>
 </div>
 </div>
+<section><h2 class="section-heading" id="referencing-other-resources-in-iac">Referencing other resources in IAC<a class="anchor" aria-label="anchor" href="#referencing-other-resources-in-iac"></a>
+</h2>
+<hr class="half-width">
+<p>Often resources depend on properties of other resources. For example,
+adding a role assignment depends on the ID of the principal, the ID of
+the target of the assignment, and the ID of the role. If the principal
+is defined in the same IAC as the assignment, its ID can be referenced
+directly by an identifier made of the resource type and the name, joined
+by a <code>.</code>. For example,
+<code>azurerm_resource_group.my_rg</code>.</p>
+<pre class="terraform"><code>resource "azurerm_resource_group" "my_resource" {
+  name     = "example"
+  location = "West Europe"
+}
+
+resource "azuread_application" "my_application" {
+  display_name = "example"
+  owners       = []
+}
+
+resource "azurerm_role_assignment" "my_role_assignment" {
+  scope                = azurerm_resource_group.my_resource.id
+  role_definition_name = "Reader"
+  principal_id         = azuread_application.my_application.object_id
+}</code></pre>
+<p>Note also that we can reference the attributes of the object (for
+example, <code>object_id</code> of the
+<code>azuread_application.my_application</code>). The attributes often
+correspond to the inputs on the block, and they also include many other
+attributes only known after creation. For example, an
+<code>azurerm_storage_account</code> resource has a
+<code>primary_access_key</code> attribute which is created when the
+account is created.</p>
+</section><section><h2 class="section-heading" id="referencing-resources-outside-of-iac">Referencing resources outside of IAC<a class="anchor" aria-label="anchor" href="#referencing-resources-outside-of-iac"></a>
+</h2>
+<hr class="half-width">
+<p>We may also need to reference resources outside of IAC. They may
+exist in other IAC deployments, they may be controlled by other teams,
+or they may be things that exist globally. Because Terraform is not
+managing these resources but is only getting data from them, these are
+called <code>data</code> resources. These are defined similarly to
+resources in Terraform, but with <code>data</code> instead of
+<code>resource</code>. For example:</p>
+<pre class="terraform"><code>data "azurerm_resource_group" "my_rg" {
+  name = "existing"
+}
+
+resource "azurerm_role_assignment" "my_role_assignment" {
+  scope                = data.azurerm_resource_group.my_resource.id
+  role_definition_name = "Reader"
+  principal_id         = azuread_application.my_application.object_id
+}</code></pre>
+<p>Date resources can be referenced by other resources with an
+identifier formed of the litteral <code>data</code>, the resource type,
+and the name. For example,
+<code>data.azurerm_resource_group.my_rg</code>.</p>
+</section><section><h2 class="section-heading" id="referencing-common-values">Referencing common values<a class="anchor" aria-label="anchor" href="#referencing-common-values"></a>
+</h2>
+<hr class="half-width">
+<p>Terraform supports reusing values with the <code>locals</code> block.
+Values can be referenced by name using <code>local</code> (without an
+“s” at the end)</p>
+<pre class="terraform"><code>locals {
+  region = "West Europe"
+}
+
+resource "azurerm_resource_group" "my_resource" {
+  name     = "example"
+  location = local.region
+}</code></pre>
+</section><section><h2 class="section-heading" id="dependencies-though-references">Dependencies though references<a class="anchor" aria-label="anchor" href="#dependencies-though-references"></a>
+</h2>
+<hr class="half-width">
+<p>Every reference of another resource creates a dependency link between
+the referring resource and the referenced resource. This means that the
+referenced resource will be created before the referring resource. This
+is often desirable. For example, we need to create a resource group
+before we can put resources in it. This is a reason to use references to
+resources instead of a common value. For example, Azure resources often
+have a <code>resource_group_name</code> argument. If we typed the name
+of the resource group, Terraform wouldn’t know that it needs to create
+the resource group first.</p>
+<p>We can also manually create dependencies between resources. We use
+the <a href="https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on" class="external-link">depends_on
+argument</a>, for example with:</p>
+<pre class="terraform"><code>resource "azurerm_network_security_group" "allow_grafana" {
+  # this allows us to contact Grafana through the network
+}
+
+resource "grafana_dashboard" "our_service" {
+  # creating this dashboard requires a network connection to the Grafana server
+  depends_on = [
+    azurerm_network_security_group.allow_grafana
+  ]
+}</code></pre>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -888,18 +983,24 @@ resources</li>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Terraform resources can reference other resources with an identifier
+formed by their type and name</li>
+<li>Terraform can reference resources outside of IAC with
+<code>data</code> resources</li>
+<li>
+<code>locals</code> can be used to reference values</li>
+<li>
+<code>depends_on</code> can be used to create links between
+resources</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-terraform-reuse"><p>Content from <a href="terraform-reuse.html">terraform-reuse</a></p>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-terraform-reuse"><p>Content from <a href="terraform-reuse.html">Reusing Terraform code</a></p>
 <hr>
 <p>Last updated on 2025-05-17 |
 
@@ -978,8 +1079,7 @@ specifying different values</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Use the <code>import</code> subcommand to associate an existing
-resource with Terraform</li>
+<li>Associate an existing resource with Terraform</li>
 <li>Develop a workflow for incorporating changes into Terraform</li>
 </ul>
 </div>
